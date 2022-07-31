@@ -1,0 +1,30 @@
+{
+  "name": "traverse-media-graphql-learning",
+  "version": "1.0.0",
+  "description": "Learning GraphQL with TraverseMedia",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "nodemon server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArtTwis/traverse-media-graphql-learning.git"
+  },
+  "author": "ArtTwis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArtTwis/traverse-media-graphql-learning/issues"
+  },
+  "homepage": "https://github.com/ArtTwis/traverse-media-graphql-learning#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.8.0",
+    "mongoose": "^6.5.0",
+    "nodemon": "^2.0.19"
+  }
+}
