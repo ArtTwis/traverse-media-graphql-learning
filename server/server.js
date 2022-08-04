@@ -6,6 +6,8 @@ const port = process.env.PORT || 5000;
 
 const app = express();
 
+const cors = require('cors');
+
 require('dotenv').config();
 
 const { graphqlHTTP } = require('express-graphql');
@@ -16,6 +18,8 @@ const connectDB = require('./config/mongodb');
 
 // connect to database....
 connectDB();
+
+app.use(cors());
 
 app.use(
   '/graphql',
